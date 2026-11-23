@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <title>Biblio - Dashboard</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/pages.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Centre de formation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
-<body class="dashboard-page">
-
-    <h1>Gestion de bibliothèque</h1>
-
-    <header class="page-topbar"><span class="brand-simple">BIBLIO</span><span class="page-caption">ESPACE DE GESTION</span></header>
-    <div class="home-intro"><div class="eyebrow">BIENVENUE</div><p>Gérez facilement vos auteurs et vos livres depuis un espace simple.</p></div>
-    <div class="quick-grid home-grid">
-
-        <div class="quick-card">
-            <div class="quick-icon">♙</div><h2>Auteurs</h2><p>Ajoutez, modifiez et consultez les auteurs.</p><a class="btn btn-primary" href="authors/index.php">
-                Gérer les auteurs
-            </a>
-        </div>
-
-        <div class="quick-card">
-            <div class="quick-icon">▤</div><h2>Livres</h2><p>Gérez votre catalogue et les informations des ouvrages.</p><a class="btn btn-primary" href="books/index.php">
-                Gérer les livres
-            </a>
-        </div>
-
+<body class="bg-light">
+<div class="container py-5 text-center">
+    <h1 class="mb-4">Centre de formation</h1>
+    <div class="d-grid gap-3 col-md-4 mx-auto">
+        <a href="formation/index.php" class="btn btn-primary btn-lg">Formations</a>
+        <a href="etudiant/index.php" class="btn btn-success btn-lg">Étudiants</a>
+        <a href="module/index.php" class="btn btn-info btn-lg">Modules</a>
     </div>
-
+</div>
 </body>
-
 </html>
